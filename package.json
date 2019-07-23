@@ -1,6 +1,11 @@
 {
   "name": "polymath-ui",
-  "version": "0.0.0",
+  "version": "0.1.0",
+  "homepage": "https://github.com/PolymathNetwork/polymath-ui",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PolymathNetwork/polymath-ui.git"
+  },
   "main": "build/dist/index.js",
   "typings": "build/dist/index.d.ts",
   "private": true,
