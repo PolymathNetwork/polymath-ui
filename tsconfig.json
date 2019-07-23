@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "strict": true,
+    "composite": true,
+    "esModuleInterop": true,
+    "emitDeclarationOnly": true,
+    "jsx": "react",
+    "outDir": "build/dist",
+    "rootDir": "src",
+    "baseUrl": "src",
+    "paths": {
+      "~/*": ["*"]
+    },
+    "plugins": [
+      {
+        "transform": "./src/misc/absoluteToRelative.ts",
+        "afterDeclarations": true
+      }
+    ]
+  },
+  // "references": [{ "path": "../new-polymath-shared" }],
+  "exclude": ["src/specsInit.ts", "build", "node_modules"]
+}
