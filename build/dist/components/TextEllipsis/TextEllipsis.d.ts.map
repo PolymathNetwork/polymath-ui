@@ -1,0 +1,1 @@
+{"version":3,"file":"TextEllipsis.d.ts","sourceRoot":"","sources":["../../../../src/components/TextEllipsis/TextEllipsis.tsx"],"names":[],"mappings":"AAAA,OAAc,EAAE,EAAE,EAAE,MAAM,OAAO,CAAC;AAGlC,UAAU,iBAAiB;IACzB,IAAI,EAAE,MAAM,CAAC;IACb,QAAQ,EAAE,MAAM,CAAC;CAClB;AAED,eAAO,MAAM,YAAY,EAAE,EAAE,CAAC,iBAAiB,CAG9C,CAAC"}
