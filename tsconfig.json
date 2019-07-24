@@ -8,7 +8,6 @@
     "strict": true,
     "composite": true,
     "esModuleInterop": true,
-    "emitDeclarationOnly": true,
     "jsx": "react",
     "outDir": "build/dist",
     "rootDir": "src",
@@ -23,6 +22,5 @@
       }
     ]
   },
-  // "references": [{ "path": "../new-polymath-shared" }],
   "exclude": ["src/specsInit.ts", "build", "node_modules"]
 }
