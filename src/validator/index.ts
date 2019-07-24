@@ -91,6 +91,7 @@ const yupValidator: ExtendedYupType = {
 };
 
 yupValidator.addMethod(Yup.mixed, 'isRequired', function(message) {
+  // @ts-ignore FIXME
   return this.required(message).typeError(message);
 });
 
