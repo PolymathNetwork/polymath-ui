@@ -19,7 +19,8 @@
       {
         "transform": "./src/misc/absoluteToRelative.ts",
         "afterDeclarations": true
-      }
+      },
+      { "transform": "@zerollup/ts-transform-paths" }
     ]
   },
   "exclude": ["src/specsInit.ts", "build", "node_modules"]
