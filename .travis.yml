@@ -12,4 +12,5 @@ jobs:
       node_js: lts/*
       script:
         - yarn
+        - yarn build
         - npm run semantic-release
