@@ -13,9 +13,10 @@
   "typings": "build/dist/index.d.ts",
   "scripts": {
     "start": "docz dev",
+    "copy-images": "cp ./src/images/*.{png,svg} ./build/dist/images/ && cp ./src/images/icons/*.svg ./build/dist/images/icons/",
     "build:website": "docz build",
     "test": "jest --env=jsdom",
-    "build": "ttsc --skipLibCheck",
+    "build": "ttsc --skipLibCheck && yarn copy-images",
     "preinstall": "rm -rf node_modules/websocket/.git",
     "semantic-release": "semantic-release"
   },
