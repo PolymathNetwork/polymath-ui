@@ -10,5 +10,6 @@ export const Demo: FC = ({ children }) => {
   const reducers = combineReducers({ router: reducer });
   const store = createStore(reducers);
 
+  // @ts-ignore
   return <Provider store={store}>{children}</Provider>;
 };
