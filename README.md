@@ -2,6 +2,10 @@
 
 A library for Polymath's custom UI components. [Check out the library live here!](https://polymath-ui-develop.netlify.com/).
 
+## Build
+
+`yarn build`
+
 ## Development
 
 After cloning, run `yarn` to install all dependencies.
