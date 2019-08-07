@@ -13,7 +13,7 @@
   "typings": "build/dist/index.d.ts",
   "scripts": {
     "start": "docz dev",
-    "copy-images": "cp ./src/images/*.{png,svg} ./build/dist/images/ && cp ./src/images/icons/*.svg ./build/dist/images/icons/",
+    "copy-images": "copyfiles -u 1 src/images/*.{png,svg} src/images/icons/*.svg build/dist/",
     "build:website": "docz build",
     "test": "jest --env=jsdom",
     "build": "ttsc --skipLibCheck && yarn copy-images",
@@ -107,6 +107,7 @@
     "babel-core": "^7.0.0-bridge.0",
     "babel-loader": "8.0.2",
     "babel-plugin-named-asset-import": "^0.3.0",
+    "copyfiles": "^2.1.1",
     "cz-conventional-changelog": "^3.0.2",
     "docz": "^0.13.7",
     "docz-plugin-css": "^0.11.0",
