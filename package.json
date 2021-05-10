@@ -47,7 +47,7 @@
     "flatpickr": "^4.5.2",
     "formik": "^1.5.1",
     "json2csv": "^4.2.0",
-    "lodash": "4.17.14",
+    "lodash": "4.17.21",
     "luxon": "^1.17.1",
     "moment": "^2.24.0",
     "moment-timezone": "^0.5.26",
